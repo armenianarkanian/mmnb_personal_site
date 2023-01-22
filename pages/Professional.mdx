@@ -5,12 +5,18 @@ date: 2023-01-17
 ---
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 # Professional Experience
 
-{/* <p style="text-align: center;"> */}
-[Click here to see my traditional 1-page resume.](/files/mb_resume.pdf)
-{/* </p> */}
+<Link href="/files/mb_resume.pdf">
+  <p>Click here to see my traditional 1-page resume.</p>
+  <style jsx>{`
+    p {
+      text-align: center;
+    }
+  `}</style>
+</Link>
 
 <Image
   src="/images/resume_thumbnail.png"
