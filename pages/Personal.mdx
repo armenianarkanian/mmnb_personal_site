@@ -5,6 +5,18 @@ date: 2023-01-17
 ---
 
 import Image from 'next/image'
+import { MyCarousel } from '../components/carousel'
+
+export const images = [
+  {
+    path: "/images/maddibox.png",
+    alt: "alt text 1"
+  },
+  {
+    path: "/images/mainportrait.png",
+    alt: "alt text 2"
+  },
+]
 
 # Personal Identity and Lived Experiences
 
@@ -16,6 +28,7 @@ It's very common to love travel-- and I do!-- but my favorite part of adventure 
 Physical challenges, learning new skills, and taking in new knowledge and understanding from museums are my favorite ways to explore the world!
 
 ### I want to put a photo carousel here.
+<MyCarousel images={images} />
 
 ## I grew up in poverty in rural Appalachia.
 <Image

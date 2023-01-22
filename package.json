@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "embla-carousel-autoplay": "^7.0.8",
+    "embla-carousel-react": "^7.0.8",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "nextra": "^2.0.0-beta.5",
