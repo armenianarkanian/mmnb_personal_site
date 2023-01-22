@@ -1,21 +1,34 @@
 ---
 type: page
-title: Other 
+title: Personal 
 date: 2023-01-17
 ---
 
 import Image from 'next/image'
+import { MyCarousel } from '../components/carousel'
+
+export const images = [
+  {
+    path: "/images/maddibox.png",
+    alt: "alt text 1"
+  },
+  {
+    path: "/images/mainportrait.png",
+    alt: "alt text 2"
+  },
+]
 
 # Personal Identity and Lived Experiences
 
-Here are some aspects of my personal identity that I [am very open about and want to share.]
+Here are some things I'm both open and passionate about.
 
 ## I like rigorous adventure.
 
 It's very common to love travel-- and I do!-- but my favorite part of adventure is the opportunity to stretch myself.
-Physical challenges, learning new skills, and taking in new knowledge and understanding from museums are my favorite ways to vacation!
+Physical challenges, learning new skills, and taking in new knowledge and understanding from museums are my favorite ways to explore the world!
 
 ### I want to put a photo carousel here.
+<MyCarousel images={images} />
 
 ## I grew up in poverty in rural Appalachia.
 <Image
@@ -40,10 +53,9 @@ popular interest in Appalachian poverty then and now.
 
 In the summer of 2022 I had the opportunity to connect my lived experiences with my academic studies of poverty policy by conducting a small solo
 research project focused on my hometown area. Though I only had a 10-week window from scoping to final edits, I'm proud of my resultant report,
-[_A General Overview of the Poverty-related Challenges of Bedford County, PA_](public/files/bedford_report.pdf).
+[_A General Overview of the Poverty-related Challenges of Bedford County, PA_](/files/bedford_report.pdf).
 
-## I spend a _lot_ of my free time studying
-[study in a hobbyist way] [ethics, communication, emotional/relationship stuff, racial and social justice, policy]
+## I spend a _lot_ of my free time studying.
 
 Here are some of my top recommendations for sources I consider to be of high value:
 
@@ -57,6 +69,8 @@ Here are some of my top recommendations for sources I consider to be of high val
 
 ## I'm a big ol' nerd.
 
-I enjoy a wide variety of nerdy hobbies, such as reading sci-fi and fantasy novels, playing tabletop board and card games, playing video games and building gaming desktops.
-(More words about that. . . )
+I enjoy a wide variety of nerdy hobbies, such as reading sci-fi and fantasy novels, playing tabletop board and card games, playing video games and building gaming PCs.
+Some authors I especially and consistently enjoy are Isaac Asimov, N.K. Jemisin, Becky Chambers, Brandon Sanderson and Naomi Novik. I enjoy Dragon Age games, and pretty much every resource management video game there is.
+I play tabletop RPGs-- mostly FateCore or Burning Wheel, these days-- and I'd call myself a casual / social player of MTG and tabletop board games. 
+Though I certainly don't work in tech, my proximity to it by way of my hobbies, friends, and a few classes have granted me shallow technical competency that is adequate for some hobbyist tinkering, like this website.
 

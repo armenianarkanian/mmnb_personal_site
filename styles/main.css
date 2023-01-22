@@ -56,10 +56,23 @@ img.next-image {
   margin: 0;
 }
 
+.margin-left-sm {
+  margin-left: 12px;
+}
+
+.margin-right-sm {
+  margin-right: 16px;
+}
+
 .prose a {
   color: #0074de;
 }
 
 .nav-line .nav-link {
   color: #69778c;
+}
+
+/* Site width */
+.md\:nx-prose {
+  max-width: 960px;
 }
