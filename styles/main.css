@@ -56,12 +56,13 @@ img.next-image {
   margin: 0;
 }
 
+ 
 .margin-left-sm {
-  margin-left: 12px;
+  margin-left: 20px;
 }
 
 .margin-right-sm {
-  margin-right: 16px;
+  margin-right: 20px;
 }
 
 .prose a {
